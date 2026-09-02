@@ -43,7 +43,21 @@ jobs:
 
           chmod +x gradlew
 
-          # 3. Compilar APK Debug
+          # 3. Asegurar keystore de debug requerido por signingConfig "debugConfig"
+          if [ ! -f "debug.keystore" ]; then
+            echo "debug.keystore no encontrado. Generando keystore de debug..."
+            keytool -genkeypair \
+              -alias androiddebugkey \
+              -keyalg RSA \
+              -keysize 2048 \
+              -validity 10000 \
+              -keystore debug.keystore \
+              -storepass android \
+              -keypass android \
+              -dname "CN=Android Debug,O=Android,C=US"
+          fi
+
+          # 4. Compilar APK Debug
           ./gradlew assembleDebug --stacktrace
 
       - name: Upload APK
