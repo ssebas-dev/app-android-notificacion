@@ -1,0 +1,6 @@
+{
+  "name": "NotiNotas",
+  "description": "Captura y lee notificaciones de aplicaciones seleccionadas y guárdalas directamente en un bloc de notas organizado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

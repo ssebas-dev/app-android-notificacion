@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotiNotas</string>
+    <string name="notification_service_name">Lector de Notificaciones NotiNotas</string>
+    <string name="nav_notes">Bloc de Notas</string>
+    <string name="nav_notifications">Notificaciones</string>
+    <string name="nav_apps">Apps a leer</string>
+</resources>

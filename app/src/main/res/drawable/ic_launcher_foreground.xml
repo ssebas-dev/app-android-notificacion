@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Notepad Card base (centered in 66dp zone, bounds around 28 to 80) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,26 h30 c3.31,0 6,2.69 6,6 v44 c0,3.31 -2.69,6 -6,6 h-30 c-3.31,0 -6,-2.69 -6,-6 v-44 c0,-3.31 2.69,-6 6,-6 z" />
+
+    <!-- Notepad Header Bar Accent -->
+    <path
+        android:fillColor="#4F46E5"
+        android:pathData="M34,26 h30 c3.31,0 6,2.69 6,6 v8 h-42 v-8 c0,-3.31 2.69,-6 6,-6 z" />
+
+    <!-- Notepad Clipboard Clip -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M43,23 h12 c1.1,0 2,0.9 2,2 v4 c0,1.1 -0.9,2 -2,2 h-12 c-1.1,0 -2,-0.9 -2,-2 v-4 c0,-1.1 0.9,-2 2,-2 z" />
+
+    <!-- Note lines -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M35,47 h28 v3 h-28 z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M35,55 h22 v3 h-22 z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M35,63 h18 v3 h-18 z" />
+
+    <!-- Notification Bell Badge (Bottom Right overlay) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M70,58 c0,-4.42 -3.58,-8 -8,-8 s-8,3.58 -8,8 c0,6 -4,8 -4,8 h24 c0,0 -4,-2 -4,-8 z" />
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M59.5,75 c0.83,1.2 2.25,2 3.5,2 s2.67,-0.8 3.5,-2 h-7 z" />
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M61,50 h2 v-2 h-2 z" />
+
+    <!-- Active notification ping dot -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M72,50m-3.5,0a3.5,3.5 0 1,0 7,0a3.5,3.5 0 1,0 -7,0" />
+</vector>
